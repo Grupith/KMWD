@@ -10,28 +10,30 @@ header {
   background-color: #20232a;
 }
 
+.headerLogo {
+  width: 3rem;
+  padding-right: 0.5rem;
+}
+
 nav {
   display: flex;
   justify-content: center;
   height: 3rem;
   align-items: center;
   font-weight: 500;
-  padding: 2.5rem;
+  padding: 2.2rem;
 }
 .navList {
   display: flex;
   justify-content: center;
+  align-items: center;
   font-size: 1.2rem;
-}
-
-.headerLogo {
-  width: 3rem;
-  padding-right: 0.5rem;
 }
 
 .navItem {
   padding: 1rem;
   list-style-type: none;
+  text-align: center;
 }
 .navItem a {
   text-decoration: none;
@@ -51,13 +53,19 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-right: 10rem;
-  margin-left: 10rem;
+  justify-content: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nameTitle {
+  color: #749e33;
 }
 
 h1 {
   margin: 1rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
   font-family: "Open Sans", sans-serif;
   font-size: 3rem;
   font-weight: 800;
@@ -66,4 +74,8 @@ h1 {
 
 h2 {
   font-size: 1rem;
+  line-height: 1.7rem;
+  width: 80%;
+  margin: auto;
+  padding-top: 0.8rem;
 }
